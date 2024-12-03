@@ -1,0 +1,615 @@
+@media (max-width: 575.98px) { 
+
+/* -------------Nav Start--------------------- */
+
+
+.main_manu ul {
+	gap: 0px;
+}
+
+.navbar-toggler:focus {
+
+    box-shadow: 1px 5px 5px 0px rgba(156,143,143,0.75);
+}
+
+
+.fa-regular, .far {font-size: 15px;
+}
+
+
+.navbar-toggler {
+	padding: 2px 5px;
+	font-size: 12px;
+	color: rgb(78, 236, 144);
+	background-color:rgb(166, 166, 243);
+	
+}
+
+.menu_logo img{
+
+    width: 105px;
+}
+
+.main_manu {
+	padding-top: 12px;
+	padding-bottom: 15px;
+}
+
+/* -==============Banner Part ====================== */
+
+
+#banner_part {
+	padding-top: 54px;
+	padding-bottom: 60px;
+
+}
+
+.bannercard .main_card {
+	width:100%;
+    padding: 20px 24px 20px 24px;
+}
+
+.bannercard .main_card h2 {
+	font-size: 10px;
+	
+}
+
+.bannercard .main_card h1 {
+	width: 100%;
+	font-weight: 700;
+	font-size: 25px;
+	margin-top: 15px;
+	margin-bottom: 9px;
+}
+
+.bannercard .main_card p {
+	width: 260px;
+	font-size: 13px;
+	
+}
+
+.bannercard .main_card .button a {
+	padding: 11px 17px;
+	font-weight: 700;
+	font-size: 9px;
+	margin-top: 17px;
+	margin-bottom: 0px;
+}
+
+
+/* -------------Support Card------------- */
+
+.support_card img{
+
+    width: 20%;
+    margin-top: 15px;
+}
+
+.support_text h2 {
+	font-size: 15px;
+	
+}
+
+.support_text p {
+	font-size: 13px;
+	
+}
+
+#support {
+	padding-top: 25px;
+	padding-bottom: 27px;
+}
+
+
+/* --------------Collection part--------- */
+
+#collection {
+	padding-top: 34px;
+	margin-bottom: 40px;
+}
+
+.common_head h2 {
+	font-size: 22px;
+	
+}
+
+.common_head p {
+	font-size: 14px;
+	margin-top: 14px;
+}
+
+
+.collection_img:hover{
+    margin-top: 37px;
+}
+
+.collection_img {
+	margin-top: 37px;
+	width: 100%;
+}
+
+.collection_img img {
+	width: 100%;
+}
+
+
+
+
+/* -------------------Beauty---------------- */
+
+
+.beauty_all {
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 45px;
+    flex-wrap: wrap;
+}
+
+.beauty_text h2 {
+	font-size: 25px;
+    margin: 0 auto;
+
+}
+
+.beauty_text p {
+	font-size: 16px;
+	width: 298px;
+}
+
+#beautify {
+	padding-top: 41px;
+	padding-bottom: 58px;
+}
+
+.beauty_text .button a {
+	font-size: 10px;
+	padding: 13px 18px;
+	margin-top: 30px;
+}
+
+
+.beauty_all .beauty_img img {
+	width: 100%;
+}
+
+
+/* ----------Range---------------- */
+
+#range {
+	padding-top: 31px;
+	padding-bottom: 34px;
+}
+
+.common_head h2 {
+	font-size: 21px;
+}
+
+
+.range_card img{
+
+    width: 100%;
+    margin-top: 0px;
+}
+
+#range .range_card h3 {
+	font-size: 17px;
+	margin-top: 13px;
+}
+
+.range_card {
+	margin-top: 24px;
+}
+
+
+/* ----------Work-------------------- */
+
+#works {
+	padding-bottom: 33px;
+}
+
+.common_head h2 {
+	font-size: 20px;
+}
+
+
+.single_work_image img{
+
+    width: 100%;
+}
+
+.single_work_card {
+	margin-top: 30px;
+	width: 100%;
+}
+
+#works .work_text h2 {
+	font-size: 20px;
+	margin-top: 37px;
+}
+
+#works .work_text p {
+	font-size: 14px;
+	margin-top: 6px;
+}
+
+
+/* ----------------Mail past----------- */
+
+#mail {
+	padding-top: 34px;
+	padding-bottom: 44px;
+}
+
+
+.common_head h2 {
+	font-size: 20px;
+}
+
+
+#mail .common_head p {
+	width: 100%;
+	font-size: 15px;
+}
+
+.mail_input {
+	width: 249px;
+	margin: 32px auto 0;
+
+}
+
+.mail_input input {
+	width: 100%;
+	padding-left: 6px;
+	font-size: 10px;
+}
+
+/* ----------------Beauty care---------- */
+
+footer {
+	padding-top: 37px;
+	padding-bottom: 50px;
+}
+
+.footer_text h2 {
+	font-size: 24px;
+
+}
+
+.footer_text p {
+	font-size: 14px;
+	width:100%;
+	margin-top: 21px;
+	margin-bottom: 21px;
+}
+
+
+.footer_img {
+	margin-top: 34px;
+	display: flex;
+	gap: 21px;
+    flex-wrap: wrap;
+}
+
+.footer_img img{
+
+    width: 100%;
+}
+
+}
+
+
+
+
+
+@media (min-width:768px) and (max-width: 991.98px) { 
+
+/* -------------Nav Start--------------------- */
+
+
+.main_manu ul {
+	gap: 0px;
+}
+
+.navbar-toggler:focus {
+
+    box-shadow: 1px 5px 5px 0px rgba(156,143,143,0.75);
+}
+
+
+.fa-regular, .far {font-size: 20px;
+}
+
+
+.navbar-toggler {
+	padding: 4px 5px;
+	font-size: 12px;
+	color: rgb(78, 236, 144);
+	background-color:rgb(166, 166, 243);
+	
+}
+
+.menu_logo img{
+
+    width: 120px;
+}
+
+.main_manu {
+	padding-top: 18px;
+	padding-bottom: 23px;
+}
+
+/* -==============Banner Part ====================== */
+
+#banner_part {
+	padding-top: 100px;
+	padding-bottom: 70px;
+}
+
+.bannercard .main_card {
+	width: 60%;
+	padding: 33px 30px 40px 35px;
+}
+
+.bannercard .main_card h2 {
+	font-size: 12px;
+	
+}
+
+.bannercard .main_card h1 {
+	width: 100%;
+	font-weight: 700;
+	font-size: 25px;
+	margin-top: 15px;
+	margin-bottom: 9px;
+}
+
+.bannercard .main_card p {
+	width: 270px;
+	font-size: 13px;
+}
+
+.bannercard .main_card .button a {
+	padding: 14px 23px;
+	font-size: 10px;
+	margin-bottom: 0px;
+}
+
+/* -------------Support Card------------- */
+
+.support_card img{
+
+    width: 15%;
+    margin-top: 20px;
+}
+
+.support_text h2 {
+	font-size: 18px;
+	
+}
+
+.support_text p {
+	font-size: 13px;
+	
+}
+
+#support {
+	padding-top: 25px;
+	padding-bottom: 27px;
+}
+
+.support_card {
+	display: flex;
+	gap: 30px;
+	justify-content: center;
+}
+
+
+/* --------------Collection part--------- */
+
+#collection {
+	padding-top: 34px;
+	margin-bottom: 40px;
+}
+
+.collection .common_head h2 {
+	font-size: 30px;
+}
+
+
+.common_head p {
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+
+.collection_img:hover{
+    margin-top: 37px;
+}
+
+.collection_img {
+	margin-top: 37px;
+	width: 100%;
+}
+
+.collection_img img {
+	width: 100%;
+}
+
+
+/* -------------------Beauty---------------- */
+
+.beauty_all {
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 45px;
+    flex-wrap: wrap;
+}
+
+.beauty_text h2 {
+	font-size: 40px;
+   text-align: center;
+
+}
+
+.beauty_text p {
+	font-size: 18px;
+	width: 660px;
+}
+
+#beautify {
+	padding-top: 41px;
+	padding-bottom: 58px;
+}
+
+.beauty_text .button a {
+	font-size: 16px;
+	padding: 17px 23px;
+}
+
+.button {
+
+	display: flex;
+	justify-content:center;
+}
+
+
+.beauty_all .beauty_img img {
+	width: 100%;
+}
+
+
+/* ----------Range---------------- */
+
+#range {
+	padding-top: 31px;
+	padding-bottom: 34px;
+}
+
+.common_head h2 {
+	font-size: 30px;
+}
+
+.range_card img{
+
+    width: 100%;
+    margin-top: 0px;
+}
+
+.range_card {
+	margin-top: 24px;
+}
+
+#range .range_card h3 {
+	font-size: 28px;
+	margin-top: 21px;
+}
+
+/* ----------Work-------------------- */
+
+#works {
+	padding-bottom: 33px;
+}
+
+.common_head h2 {
+	font-size: 20px;
+}
+
+
+.single_work_image img{
+
+    width: 100%;
+}
+
+.single_work_card {
+	margin-top: 30px;
+	width: 100%;
+}
+
+#works .work_text h2 {
+	font-size: 20px;
+	margin-top: 37px;
+}
+
+#works .work_text p {
+	font-size: 14px;
+	margin-top: 6px;
+}
+
+.single_work_card span {
+	
+	bottom: -3%;
+
+}
+
+
+/* ----------------Mail past----------- */
+
+#mail {
+	padding-top: 34px;
+	padding-bottom: 44px;
+}
+
+
+.common_head h2 {
+	font-size: 20px;
+}
+
+
+#mail .common_head p {
+	width: 100%;
+	font-size: 15px;
+}
+
+.mail_input {
+	width: 249px;
+	margin: 32px auto 0;
+
+}
+
+.mail_input input {
+	width: 100%;
+	padding-left: 6px;
+	font-size: 10px;
+}
+
+/* ----------------Beauty care---------- */
+
+footer {
+	padding-top: 37px;
+	padding-bottom: 50px;
+}
+
+.footer_text h2 {
+	font-size: 24px;
+
+}
+
+.footer_text p {
+	font-size: 14px;
+	width:100%;
+	margin-top: 21px;
+	margin-bottom: 21px;
+}
+
+
+.footer_img {
+	margin-top: 34px;
+	display: flex;
+	gap: 21px;
+    flex-wrap: wrap;
+}
+
+.footer_img img{
+
+    width: 100%;
+}
+
+
+ }
+
+
+

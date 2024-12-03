@@ -1,0 +1,487 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+/* -----------------Common CSS Start----------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,ol{
+
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+
+ --montserrat: "Montserrat", sans-serif;
+ --bandcolor: #054C73;
+}
+
+/* =================Common CSS End=================== */
+
+
+/* -----------------Navbar CSS Start----------------- */
+
+.main_manu
+{
+
+    padding-top: 43px;
+    padding-bottom: 38px;
+}
+
+.main_manu ul li a
+{
+
+    font-weight: 600;
+    font-size: 14px;
+    font-family: var(--montserrat);
+    color: #333333 !important;
+    transition: all linear .5s;
+}
+
+.main_manu ul
+{
+
+    gap: 73px;
+}
+
+.main_manu ul li:hover a
+{
+
+    color: red !important;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.common_head h2{
+
+    font-size: 32px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: #333333;
+    text-align: center;
+}
+
+.common_head p{
+
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--montserrat);
+    color: #666666;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* =================Navbar CSS End=================== */
+
+/* -----------------Banner Part CSS Start----------------- */
+
+#banner_part
+{
+ padding-top: 155px;
+ padding-bottom: 151px;
+ background: url(../image/BannerBackground.png);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.bannercard{
+
+    display: flex;
+    justify-content: end;
+}
+
+.bannercard .main_card{
+
+    width: 643px;
+    padding: 37px 68px 41px 39px;
+    background: #DFE9F4;
+    border-radius: 10px;
+
+}
+
+.bannercard .main_card h2
+{
+    font-weight: 600;
+    font-size: 16px;
+    font-family: var(--montserrat);
+    color: #333333;
+    letter-spacing: 3px;
+}
+
+.bannercard .main_card h1
+{
+    width: 424px;
+    font-weight: 700;
+    font-size: 52px;
+    font-family: var(--montserrat);
+    color:var(--bandcolor);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bannercard .main_card p
+{
+    width: 546px;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: var(--montserrat);
+    color:#333333;
+}
+
+.bannercard .main_card .button a
+{
+    padding: 25px 72px;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: var(--montserrat);
+    color:#FFFFFF;
+    background: var(--bandcolor);
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-bottom: 41px;
+}
+
+.bannercard .main_card .button:hover a{
+
+    background-color: rgb(134, 134, 2);
+}
+
+/* =================Banner Part CSS End=================== */
+
+/* -----------------Support Part CSS Start----------------- */
+
+#support
+{
+    padding-top: 46px;
+    padding-bottom: 49px;
+    background: #F2F5FF;
+}
+
+.support_card
+{
+    display: flex;
+    gap: 27px;
+    align-items: center;
+    
+}
+
+.support_text h2
+{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: var(--montserrat);
+    color: #333333;
+}
+
+.support_text p
+
+{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--montserrat);
+    color: #333333;
+    margin-top: 6px;
+}
+
+
+/* =================Support Part CSS End=================== */
+
+/* -----------------Collection Part CSS Start----------------- */
+
+#collection
+{
+    padding-top: 60px;
+    margin-bottom: 66px;
+}
+
+.collection_img{
+
+    margin-top: 87px;
+    transition: all linear .3s;
+}
+
+.collection_img img{
+
+    width: 355px;
+    
+}
+
+.collection_img:hover{
+
+    margin-top: 12px;
+}
+
+/* =================Collection Part CSS End=================== */
+
+/* -----------------Beautify Css Start------------------------ */
+
+#beautify{
+
+    padding-top: 55px;
+    padding-bottom: 65px;
+    background: #F2F5FF;
+}
+
+.beauty_all{
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 94px;
+}
+
+.beauty_text h2
+{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: #333333;
+}
+
+.beauty_text p
+{
+    font-size: 20px;
+    font-weight: 400;
+    width: 489px;
+    font-family: var(--montserrat);
+    color: #666666;
+    margin-top: 20px;
+}
+
+.beauty_text .button a
+{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: #FFFFFF;
+    background: var(--bandcolor);
+    padding: 24px 57px;
+    border-radius: 50px;
+    margin-top: 30px;
+    transition: all linear .3s;
+}
+
+.beauty_text .button:hover a{
+
+    background: #666666;
+}
+
+.beauty_all .beauty_img img{
+
+    width: 500px;
+}
+
+/* =================Beautify Css End========================== */
+
+/* ---------------------Range Part Css Start----------------- */
+
+#range{
+
+    padding-top: 55px;
+    padding-bottom: 121px;
+}
+
+.range_pic{
+
+    display: flex;
+    gap: 20px;
+}
+
+.range_card{
+
+    margin-top: 50px;
+    
+}
+
+#range .range_card h3{
+
+    font-size: 24px;
+    font-weight: 600px;
+    font-family: var(--montserrat);
+    color: #333333;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* =====================Range Part Css End===================== */
+
+/* ----------------Works Css Start--------------- */
+
+#works{
+
+    padding-bottom: 121px;
+}
+
+.single_work_card{
+
+    margin-top: 50px;
+    width: 381px;
+}
+
+#works .work_text h2
+{
+  font-size: 24px;
+  font-weight: 700;
+  font-family: var(--montserrat);
+  color: #333333;
+  text-align: center;
+  margin-top: 75px;
+
+}
+
+#works .work_text p
+{
+  font-size: 24px;
+  font-weight: 400;
+  font-family: var(--montserrat);
+  color: #333333;
+  text-align: center;
+  margin-top:10px;
+}
+
+.single_work_image{
+
+    position: relative;
+}
+
+.single_work_card span
+{
+  font-size: 24px;
+  font-weight: 700;
+  font-family: var(--montserrat);
+  color: #FFFFFF;
+  background: #111111;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -8%;
+  left: 50%;
+  transform: translateX(-50%);
+  outline: 15px solid #FFFFFF;
+}
+/* ===============Works Css End=================== */
+
+/* ==============Mailing Css Start=============== */
+
+#mail{
+
+    padding-top: 59px;
+    padding-bottom: 61px;
+    background: #F2F5FF;
+}
+
+#mail .common_head p{
+
+    width: 514px;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: var(--montserrat);
+    color:#666666;
+    margin: 0 auto ;
+}
+
+#mail .common_head h2{
+
+    margin-bottom: 10px;
+}
+
+.mail_input input{
+
+    width: 300px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 21px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--montserrat);
+    color: #011C42;
+}
+
+.mail_input{
+
+    width: 486px;
+    height: 70px;
+    border: 1px solid #054C73;
+    margin: 50px auto 0;
+    border-radius: 3px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mail_input button{
+
+    width: 153px;
+    height: 70px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background: #054C73;
+    border: 1px solid #011C42;
+    border-radius: 3px;
+    transition: all linear .3s;
+}
+
+.mail_input button:hover{
+
+    background-color: black;
+    width: 150px;
+    height: 68px;
+}
+/* ==============Mailing Css End================= */
+
+/* -----------Footer Css Start------------------ */
+
+footer{
+
+    padding-top: 49px;
+    padding-bottom: 89px;
+    background: #03344F;
+}
+
+.footer_text h2{
+
+    font-size: 24px;
+    font-weight: 700;
+    font-family: var(--montserrat);
+    color: #FFFFFF;
+}
+
+.footer_text p{
+
+    font-size: 16px;
+    font-weight: 400;
+    width: 400px;
+    font-family: var(--montserrat);
+    color: #FFFFFF;
+    margin-top: 34px;
+    margin-bottom: 21px;
+}
+
+.footer_img{
+
+    margin-top: 34px;
+    display: flex;
+    gap: 21px;
+}
+
+/* ============Footer Css End==================== */

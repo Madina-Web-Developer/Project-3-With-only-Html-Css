@@ -1,0 +1,222 @@
+@media (max-width: 575.98px) {
+
+
+
+    .menu_logo img{
+
+        width: 100px;
+    }
+    
+    
+    .main_manu {
+        padding-top: 14px;
+        padding-bottom: 17px;
+    }
+    
+    .navbar-toggler:focus {
+        
+        box-shadow: 9px 11px 4px -6px rgba(115,206,245,1);
+    
+     }
+
+    
+    .navbar-toggler {
+        padding: 4px 8px;
+        font-size: 13px;
+    }
+    
+    #banner_part {
+        padding-top: 50px;
+        padding-bottom: 67px;
+    }
+
+
+
+
+    .bannercard .main_card {
+        width: 100%;
+        padding: 34px 20px 0px 28px;
+        
+    }
+
+    .bannercard .main_card h2 {
+        font-size: 13px;
+        
+    }
+
+    .bannercard .main_card h1 {
+        width: 280px;
+        font-size: 20px;
+    }
+    .bannercard .main_card p {
+        width: 241px;
+        font-size: 12px;
+    }
+    .bannercard .main_card .button a {
+        padding: 10px 20px;
+        font-size: 8px;
+       
+    }
+
+    .common_head h2 {
+        font-size: 22px;
+    
+    }
+
+
+/* --------------Collection----------------------- */
+
+#collection {
+	padding-top: 30px;
+	margin-bottom: 66px;
+}
+
+.common_head p {
+	font-size: 14px;
+
+}
+
+.collection_img img {
+	width: 100%;
+}
+
+#beautify {
+	padding-top: 10px;
+	padding-bottom: 65px;
+	
+}
+
+.beauty_text h2 {
+	font-size: 23px;
+}
+
+.beauty_text p {
+	font-size: 15px;
+	width: 300px;
+	
+}
+
+.beauty_text .button a {
+	font-size: 9px;
+	padding: 15px 25px;
+	border-radius: 50px;
+	margin-top: 24px;
+}
+
+
+
+/* -----------Range---------------- */
+
+.common_head h2 {
+	font-size: 20px;
+}
+
+#range {
+	padding-top: 10px;
+	padding-bottom: 68px;
+}
+
+img, svg {
+	width: 100%;
+
+
+}
+
+
+#range .range_card h3 {
+	font-size: 17px;
+	margin-top: 15px;
+	
+}  
+
+
+/* ----------Work========= */
+
+img, svg {
+	width: 100%;
+   
+}
+
+.single_work_card span {
+	font-size: 15px;
+	left: 39%;
+	
+}
+
+#works .work_text h2 {
+	font-size: 22px;
+	margin-top: 58px;
+}
+
+#works .work_text p {
+	font-size: 13px;
+	margin-top: 10px;
+    width: 297px;
+}
+
+#works {
+	padding-bottom: 38px;
+}
+
+/* -----------Mail----------- */
+
+#mail {
+	padding-top: 25px;
+	padding-bottom: 34px;
+}
+
+#mail .common_head p {
+	width: 295px;
+	font-size: 12px;
+}
+
+.mail_input {
+	width: 230px;
+
+}
+
+.mail_input input {
+	width: 196px;
+    padding-left: 16px;
+	font-size: 10px;
+
+}
+
+
+/* ---------Footer---------- */
+
+
+footer {
+	padding-top: 27px;
+	padding-bottom: 70px;
+	
+}
+
+
+
+.footer_text p {
+	font-size: 13px;
+	width: 290px;
+    margin-top: 20px;
+}
+
+
+.footer_text h2 {
+	font-size: 20px;
+}
+
+img, svg {
+	width: 100%;
+
+}
+
+.footer_img {
+	margin-top: 34px;
+	flex-wrap: wrap;
+}
+
+
+
+
+
+}
